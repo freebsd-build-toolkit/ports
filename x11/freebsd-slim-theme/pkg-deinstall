@@ -1,0 +1,6 @@
+#!/bin/sh
+
+[ "$2" = 'POST-DEINSTALL' ] || exit 0
+echo 'freebsd-slim-theme deinstaled'
+exit 0
+
